@@ -1,12 +1,14 @@
-import Hero from "./components/PricingHero";
+import PricingHero from "./components/PricingHero";
 import PricingTiers from "./components/PricingTiers"
-import Fees from "./components/PricingFees"
+import PricingFees from "./components/PricingFees"
+import WhyChooseAfrosphere from "./components/WhyChooseAfrosphere";
 const Pricing = () => {
    return (
     <main>
-      <Hero />
+      <PricingHero />
       <PricingTiers />
-      <Fees />
+      <PricingFees />
+      <WhyChooseAfrosphere />
     </main>
   );
 }

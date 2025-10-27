@@ -1,4 +1,5 @@
 import Herobg from "../../../assets/images/pricingBgimage.png";
+
 const PricingHero = () => {
   return (
     <section className="relative flex flex-col items-center justify-center text-white w-full min-h-screen">
@@ -7,7 +8,7 @@ const PricingHero = () => {
         alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover object-center "
       />
-      <div className="relative z-10 w-full bg-black/50 backdrop-blur-md py-16">
+      <div className="relative z-10 w-full bg-[#0000001A]/50 backdrop-blur-[35px] py-16">
         <div className="ml-8 w-[70%] flex flex-col">
           <h1
             id="hero-heading"

@@ -1,16 +1,3 @@
-// import FreeTier from "./FreeTier"
-// import ProfessionalTier from "./ProfessionalTier"
-// const PricingTiers = () => {
-//   return (
-//     <section className='min-h-screen py-14 flex flex-col items-center justify-center'>
-//       <FreeTier />
-//       <ProfessionalTier />
-//     </section>
-//   )
-// }
-
-// export default PricingTiers
-
 import FreeTier from "./FreeTier"
 import ProfessionalTier from "./ProfessionalTier"
 
@@ -48,9 +35,9 @@ const PricingTiers = () => {
   };
 
   return (
-    <section className='min-h-screen py-14 flex flex-col items-center justify-center'>
+    <section className='min-h-screen py-14 flex flex-col items-center justify-center gap-12'>
       <FreeTier freeTierData={freeTierData} />
-      <ProfessionalTier data={professionalTierData} />
+      <ProfessionalTier professionalTierData={professionalTierData} />
     </section>
   )
 }
