@@ -1,5 +1,5 @@
 import Herobg from "../../../assets/images/pricingBgimage.png";
-const Hero = () => {
+const PricingHero = () => {
   return (
     <section className="relative flex flex-col items-center justify-center text-white w-full min-h-screen">
       <img
@@ -27,4 +27,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default PricingHero;

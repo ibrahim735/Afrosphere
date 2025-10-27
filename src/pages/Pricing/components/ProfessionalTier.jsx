@@ -1,7 +1,7 @@
-const professionaltier = () => {
+const ProfessionalTier = () => {
   return (
     <div>protier</div>
   )
 }
 
-export default professionaltier
+export default ProfessionalTier

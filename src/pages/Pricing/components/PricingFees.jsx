@@ -1,4 +1,4 @@
-const fees = () => {
+const PricingFees = () => {
   return (
     <section className='min-h-screen text-black flex flex-col items-center justify-center'>
       <h2 className='text-[2rem] font-semibold text-center'>Transaction Fees</h2>
@@ -7,4 +7,4 @@ const fees = () => {
   )
 }
 
-export default fees
+export default PricingFees
