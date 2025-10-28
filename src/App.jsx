@@ -4,8 +4,8 @@ import HowItWorks from "./pages/Howitworks/HowItWorks.jsx";
 const App = () => {
   return (
     <>
-      <Pricing />
-      {/* <HowItWorks /> */}
+      {/* <Pricing /> */}
+      <HowItWorks />
     </>
   );
 };
